@@ -1,0 +1,28 @@
+student: Hoa Vu Trong
+course: Grammar Engineering in GF - Malta 2017
+teacher: Prof. Aarne Ranta
+
+Descriptions: 
+        - An application allows users to query database in natural language.
+        - The database is about members of my class 
+        - There is a Java shell to read input in English and translate to SQL. The SQL code is excecuted and the return records is are printed out
+
+Files:
+    lct.sql : the database script which creates and inserts data to database
+    Members.gf : the abstract grammars
+    MembersEng.gf: the English concrete grammars
+    MembersSQL.gf: the SQL concrete grammars
+    postgresql-9.4.1207.jar: PostGreSQL connector
+    jpgf.jar: GF runtime library 
+    run.sh: script to run the code
+    README: this file
+
+How to run:
+    1. change the library path in run.sh
+    2. ./run.sh
+
+
+Reference:
+the code is based on the example in gf-contrib project:
+https://github.com/GrammaticalFramework/gf-contrib/tree/master/query-converter/gf-grammars
+
